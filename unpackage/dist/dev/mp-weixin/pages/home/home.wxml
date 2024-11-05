@@ -1,0 +1,1 @@
+<view><image wx:for="{{a}}" wx:for-item="item" wx:key="a" src="{{item.b}}" bindtap="{{item.c}}"></image><button bindtap="{{b}}">关闭刷新</button></view>

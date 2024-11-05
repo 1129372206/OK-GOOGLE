@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/user/user",
+    "pages/demo1/demo1",
+    "pages/demo2/demo2"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "scrollindicator": "none"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#31B68E",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "static/tagbar/home.png",
+        "selectedIconPath": "static/tagbar/home-h.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tagbar/classify.png",
+        "selectedIconPath": "static/tagbar/classify-h.png",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "iconPath": "static/tagbar/user.png",
+        "selectedIconPath": "static/tagbar/user-h.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

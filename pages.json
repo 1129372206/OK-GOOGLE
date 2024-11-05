@@ -1,0 +1,94 @@
+{
+	"pages": [
+    
+		{
+		  "path" : "pages/home/home",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "首页",
+		    "enablePullDownRefresh" : true
+		  }
+		},
+		{
+		  "path" : "pages/classify/classify",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "分类",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+		{
+		  "path" : "pages/user/user",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "我的",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+    {
+      "path" : "pages/demo1/demo1",
+      "style" : 
+      {
+        "navigationBarTitleText" : "demo1",
+        "enablePullDownRefresh" : false
+      }
+    },
+		{
+		  "path" : "pages/demo2/demo2",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "demo2",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+		{
+		  "path" : "pages/demo3/demo3",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "demo3",
+		    "enablePullDownRefresh" : false
+		  }
+		}
+	],
+  
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#31B68E",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "fontSize": "16rpx",
+    "iconWidth": "50rpx",
+    "height":"120rpx",
+
+    "list": [
+      {
+        "iconPath": "static/tagbar/home.png",
+        "selectedIconPath": "static/tagbar/home-h.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tagbar/classify.png",
+        "selectedIconPath": "static/tagbar/classify-h.png",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "iconPath": "static/tagbar/user.png",
+        "selectedIconPath": "static/tagbar/user-h.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+    "scrollindicator":"none"
+	},
+	"uniIdRouter": {}
+}
